@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeList Test Suit snapshot renders correctly 1`] = `
+Array [
+  <div
+    className="d-flex flex-row mb-3"
+  >
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="fa-solid fa-plus"
+      />
+      Add New Employee
+    </button>
+  </div>,
+  <table
+    className="table table-striped"
+  >
+    <thead
+      className="table-dark"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          Emp#
+        </th>
+        <th
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          scope="col"
+        >
+          Designation
+        </th>
+        <th
+          scope="col"
+        >
+          Department
+        </th>
+        <th
+          scope="col"
+        >
+          Salary
+        </th>
+        <th
+          scope="col"
+          style={
+            Object {
+              "width": "80px",
+            }
+          }
+        />
+        <th
+          scope="col"
+          style={
+            Object {
+              "width": "80px",
+            }
+          }
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th
+          scope="row"
+        >
+          2
+        </th>
+        <td>
+          Test User 2
+        </td>
+        <td>
+          test designation
+        </td>
+        <td>
+          test dept
+        </td>
+        <td>
+          20000
+        </td>
+        <td>
+          <button
+            className="btn btn-outline-info"
+            onClick={[Function]}
+            type="button"
+          >
+            View
+          </button>
+        </td>
+        <td>
+          <button
+            className="btn btn-outline-danger"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
